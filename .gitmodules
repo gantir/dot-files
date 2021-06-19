@@ -6,3 +6,7 @@
 	path = meta/dotbot-brewfile
 	url = git@github.com:sobolevn/dotbot-brewfile.git
 	ignore = dirty
+[submodule "apps/notmuch-py"]
+	path = apps/notmuch/notmuch-py
+	url = git@github.com:honza/mutt-notmuch-py.git
+  ignore = dirty

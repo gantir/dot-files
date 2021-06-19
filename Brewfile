@@ -23,6 +23,7 @@ brew "pyenv-virtualenv"
 
 
 # Tools
+# brew "coreutils"
 brew "curl"
 brew "wget"
 brew "ack"
@@ -35,9 +36,11 @@ brew "pre-commit"
 brew "tmux"
 brew "unrar"
 brew "exa"
+brew "openssh"
 
 
 # Browsers
+brew "lynx"
 # cask "google-chrome"
 cask "firefox"
 cask  "brave-browser"

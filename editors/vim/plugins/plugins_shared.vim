@@ -10,6 +10,7 @@ Plug 'terryma/vim-expand-region'
 
 " Colors
 Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
 Plug 'romainl/Apprentice'
 Plug 'easymotion/vim-easymotion'
 
@@ -17,6 +18,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'Traap/vim-helptags'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'ervandew/supertab'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -41,6 +44,7 @@ Plug 'mhinz/vim-startify'
 Plug 'kshenoy/vim-signature'
 Plug 'wellle/targets.vim'
 Plug 'tommcdo/vim-exchange'
+Plug 'terryma/vim-expand-region'
 
 " Dev
 Plug 'editorconfig/editorconfig-vim'
@@ -52,6 +56,8 @@ Plug 'lambdatoast/elm.vim'
 Plug 'freitass/todo.txt-vim'
 Plug 'dag/vim-fish'
 Plug 'martinda/Jenkinsfile-vim-syntax'
+
+let g:polyglot_disabled = ['latex']
 Plug 'sheerun/vim-polyglot'
 Plug 'lervag/vimtex'
 

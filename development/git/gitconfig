@@ -1,3 +1,6 @@
+[user]
+	email = ramjee@fiddler.ai
+	name = Ramjee Ganti
 
 [core]
 	excludesfile = ~/.gitignore_global
@@ -5,6 +8,19 @@
 
 [credential]
 	helper = "netrc -f ~/.netrc.asc -v"
+
+[diff]
+	tool = code
+[difftool]
+	prompt = true
+[difftool "code"]
+	cmd = code --diff --wait \"$LOCAL\" \"$REMOTE\"
+	trustExitCode = false
+
+[merge]
+	tool = code
+[mergetool "code"]
+	cmd = code --wait \"$MERGED\"
 
 [push]
 	default = current

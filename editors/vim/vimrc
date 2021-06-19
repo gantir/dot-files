@@ -6,6 +6,7 @@ let mapleader=" "
 let g:mapleader=" "
 set showmode            " show the input mode in the footer
 set shortmess+=I        " Don't show the Vim welcome screen.
+set shortmess+=c        " Don't give |ins-completion-menu| messages
 set clipboard=unnamedplus " use system clipboard with * register
 
 set autoindent          " Copy indent from current line for new line.
@@ -86,6 +87,7 @@ set matchtime=1                 " In tenths of seconds, when showmatch is on
 
 set wildmenu                    " Use menu for completions
 set wildmode=full
+
 
 if has("win32")
   set grepprg=internal        " Windows findstr.exe just isn't good enough.

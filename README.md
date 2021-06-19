@@ -11,6 +11,7 @@
 # Dotfiles
 
 Dotfile management using [Dotbot](https://github.com/anishathalye/dotbot).
+
 Structure of this repository is strongly inspired by [vsund](https://github.com/vsund/dotfiles) and [vbrandl](https://github.com/vbrandl/dotfiles).
 
 ## Screenshots
@@ -20,8 +21,6 @@ Screenshots are in the [Wiki](https://github.com/magicmonty/dotfiles_dotbot/wiki
 ## Dependencies
 
 * git
-* ruby
-* node
 * nvim / vim (depending of profile)
 * homebrew (in osx)
 * tmux
@@ -30,7 +29,7 @@ Screenshots are in the [Wiki](https://github.com/magicmonty/dotfiles_dotbot/wiki
 ## Installation
 
 ```bash
-~$ git clone --recursive https://github.com/magicmonty/dotfiles_dotbot .dotfiles
+~$ git clone --recursive https://github.com/gantir/dot-files .dotfiles
 ```
 
 For installing a predefined profile:

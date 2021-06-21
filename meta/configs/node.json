@@ -10,7 +10,6 @@
   },
   {
     "link": {
-      "~/.node-version": "development/node/node-version",
       "~/.npmrc": "development/node/npmrc"
     }
   }

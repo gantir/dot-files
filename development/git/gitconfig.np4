@@ -3,7 +3,7 @@
 	name = Ramjee Ganti
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = /usr/bin/nvim
+	editor = /usr/bin/vim
 
 [alias]
   s = status

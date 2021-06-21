@@ -1,8 +1,8 @@
-set DEFAULT_USER martingondermann
+set DEFAULT_USER ramjee
 
 set fish_key_bindings fish_vi_key_bindings
 
-set -gx EDITOR nvim
+set -gx EDITOR vim
 
 source ~/.config/fish/abbr.fish
 

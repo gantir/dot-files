@@ -78,8 +78,7 @@ alias cp="cp -i"                                                # Confirm before
 alias df='df -h'                                                # Human-readable sizes
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
-alias vi='nvim'
-alias v='nvim'
+alias v='vim'
 alias ls='exa'
 alias la='exa -glah --git --color-scale'
 alias ll='exa -glh --git --color-scale'
@@ -87,7 +86,7 @@ alias l='exa -lh --git --color-scale'
 alias c.='code .'
 alias e='emacsclient -nt'
 alias ec='emacsclient -nc'
-alias vimdiff='nvim -d'
+alias vimdiff='vim -d'
 
 ## Git aliases
 alias g='git'
@@ -320,7 +319,7 @@ if [ -e ~/.dotnet/tools ]; then
 fi
 
 
-export DEFAULT_USER=mgondermann
+export DEFAULT_USER=ramjee
 if [ -e "$TMUX" ]; then
   export TERM=screen-256color
 else
@@ -332,4 +331,4 @@ if [ -e ~/.gem/ruby/2.7.0/gems/tmuxinator-1.1.4/completion/tmuxinator.zsh ]; the
   alias mux='tmuxinator'
 fi
 
-source /home/mgondermann/.config/broot/launcher/bash/br
+source /home/ramjee/.config/broot/launcher/bash/br

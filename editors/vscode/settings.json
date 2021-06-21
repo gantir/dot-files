@@ -22,5 +22,6 @@
         "*.tidal": "haskell"
     },
     "tidalcycles.showOutputInConsoleChannel": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.untrustedFiles": "open"
 }

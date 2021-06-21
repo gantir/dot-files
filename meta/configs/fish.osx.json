@@ -14,7 +14,7 @@
   {
     "link": {
       "~/.config/fish/abbr.fish": "shells/fish/config/fish/abbr.fish",
-      "~/.config/fish/autoenv.fish": "shells/fish/config/fish/autoenv.fish",
+      "~/.config/fish/shortcuts.fish": "shells/fish/config/fish/shortcuts.fish",
       "~/.config/fish/config.fish": "shells/fish/config/fish/config.fish",
       "~/.config/fish/completions/fisher.fish": "shells/fish/config/fish/completions/fisher.fish",
       "~/.config/fish/functions/edit_config_fish.fish": "shells/fish/config/fish/functions/edit_config_fish.fish",
@@ -29,19 +29,16 @@
       "~/.config/fish/functions/mail.fish": "shells/fish/config/fish/functions/mail.fish",
       "~/.config/fish/functions/psa.fish": "shells/fish/config/fish/functions/psa.fish",
       "~/.config/fish/functions/search_history.fish": "shells/fish/config/fish/functions/search_history.fish",
-      "~/.config/fish/fishfile": "shells/fish/config/fish/fishfile.osx",
+      "~/.config/fish/fishfile,osx": "shells/fish/config/fish/fishfile.osx",
       "~/.config/fish/functions/fisher.fish": "shells/fish/config/fish/functions/fisher.fish",
       "~/.config/fish/functions/fish_greeting.fish": "shells/fish/config/fish/functions/fish_greeting.fish",
-      "~/.config/fish/functions/fish_mode_prompt.fish": "shells/fish/config/fish/functions/fish_mode_prompt.fish",
-      "~/.config/fish/functions/fish_prompt.fish": "shells/fish/config/fish/functions/fish_prompt.fish",
-      "~/.config/fish/functions/fish_right_prompt.fish": "shells/fish/config/fish/functions/fish_right_prompt.fish",
-      "~/.config/fish/functions/fish_title.fish": "shells/fish/config/fish/functions/fish_title.fish"
+      "~/.config/fish/functions/fish_mode_prompt.fish": "shells/fish/config/fish/functions/fish_mode_prompt.fish"
     }
   },
   {
     "shell": [
       ["fish -c 'fisher and fisher up'", "Installing fisher plugins"],
-      ["echo '/usr/local/bin/fish' | sudo tee -a /etc/shells;chsh -s `which fish`", "Setting fish as default shell"]
+      ["echo '/usr/local/bin/fish' | sudo tee -a /etc/shells;chsh -s (which fish)", "Setting fish as default shell"]
     ]
   },
   {

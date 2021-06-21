@@ -1,6 +1,8 @@
 homebrew
-dev
 git
+ruby
+node
+dev
 vim.osx
 emacs
 fish.osx

@@ -1,6 +1,8 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
-tap "caskroom/cask"
+tap "homebrew/cask"
+tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
 
 # Editors
 cask "visual-studio-code"
@@ -16,10 +18,13 @@ brew "fish"
 
 # Languages
 # brew "python3"
+brew "ruby"
 # brew "node"
 # brew "go"
 brew "pyenv"
 brew "pyenv-virtualenv"
+brew "nvm"
+brew "yarn"
 
 
 # Tools
@@ -31,13 +36,16 @@ brew "git-flow"
 brew "p7zip"
 # cask "vlc"
 cask "meld"
+cask "p4v"
 brew "pre-commit"
 # cask "flux"
 brew "tmux"
-brew "unrar"
+cask "rar"
 brew "exa"
 brew "openssh"
 
+# Docker
+cask "docker"
 
 # Browsers
 brew "lynx"

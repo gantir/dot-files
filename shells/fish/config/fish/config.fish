@@ -1,4 +1,4 @@
-set DEFAULT_USER martingondermann
+set DEFAULT_USER ramjee
 
 if [ -e "$TMUX" ]
   set -gx TERM xterm-256color
@@ -8,9 +8,7 @@ end
 
 set fish_key_bindings fish_vi_key_bindings
 
-set -gx BROWSER /usr/bin/qutebrowser
 set -gx EDITOR /usr/bin/vim
-set -gx RTV_BROWSER /usr/bin/qutebrowser
 set -gx RTV_EDITOR /usr/bin/vim
 set -gx TERMINAL /usr/bin/termite
 set -gx BYOBU_CHARMAP UTF-8
@@ -49,3 +47,23 @@ set -g DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 source ~/.config/fish/shortcuts.fish
+
+# RUBY
+# adding to paths
+fish_add_path /usr/local/opt/ruby/bin
+
+# For compilers to find ruby:
+set -gx LDFLAGS "-L/usr/local/opt/ruby/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/ruby/include"
+
+# For pkg-config to find ruby
+set -gx PKG_CONFIG_PATH "/usr/local/opt/ruby/lib/pkgconfig"
+
+#NODE
+# set -Ux NVM_DIR ~/.nvm
+
+#PYTHON
+set -Ux PYENV_ROOT $HOME/.pyenv
+set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+
+status is-login; and pyenv init --path | source
